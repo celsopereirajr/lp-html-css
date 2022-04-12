@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lato&family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lato&family=Open+Sans:ital,wght@0,400;1,300&family=Rubik:wght@300;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-color: white;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+    
+}
+
+.logo{
+    height: 54px ;
+}
+
+.navegacao{
+    display: flex;
+    gap: 32px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.conteudo{
+    border-top: 0.8px solid rgb(0,0,0);
+    margin-bottom: 48px;
+    padding: 52px;
+}
+
+.conteudo-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 54px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.conteudo-principal-escrito-texto{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.conteudo-principal-botao{
+    background-color: #2fb35c;
+    width: 187px; height: 70px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0,0.25);
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;   
+}
+
+.conteudo-principal-botao:hover{
+    background-color: #307a49;
+}
+
+.conteudo-principal-imagem{
+    border-radius: 50%;
+    height: 470px;
+}
+
+.conteudo-secundario{
+    border-top: 0.4px  rgb(0,0,0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    padding: 52px;
+
+}
+
+.conteudo-secundario-titulo{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.complemento-imagem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0,4 0,5 0,4 rgb(0,0,0);
+}
+
+.complemento-imagem1{
+    height: 370px;
+}
+.complemento-imagem2{
+    height: 370px;
+}
